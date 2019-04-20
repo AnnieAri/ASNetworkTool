@@ -1,0 +1,10 @@
+#source 'http://180.76.163.33:10101/r/PrivateModulesRepo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+target 'ASNetworkTool_Example' do
+    pod 'ASNetworkTool', :path => '../'
+
+  target 'ASNetworkTool_Tests' do
+    inherit! :search_paths
+  end
+end
